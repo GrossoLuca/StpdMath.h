@@ -21,3 +21,18 @@ float mean(int a, int b)
 {
     return ((float)(a+b)/2.0);
 }
+
+/**
+ * @brief mean function for complx numbers
+ * 
+ * @param a first complex number
+ * @param b secondo complex number
+ * @return complex_float_type complex float type
+ */
+complex_float_type complex_mean(complex_int_type a, complex_int_type b)
+{
+    complex_float_type result;
+    result.re=(a.re+b.re)/2.0;
+    result.im=(a.im+b.im)/2.0;
+    return result;
+}
