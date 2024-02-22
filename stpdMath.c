@@ -10,6 +10,13 @@
  */
 #include "stpdMath.h"
 
+/**
+ * @brief give the mean of 2 integer number
+ * 
+ * @param a first integer number
+ * @param b second interger number
+ * @return mean of the 2 number 
+ */
 float mean(int a, int b)
 {
     return ((float)(a+b)/2.0);

@@ -9,6 +9,10 @@
  * 
  */
 
+/**
+ * @brief include stpdMath.h only if not already included
+ * 
+ */
 #ifndef _STPDMATHH_
 #define _STPDMATHH_
 
