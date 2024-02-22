@@ -9,6 +9,9 @@
 !*.cpp
 !.gitignore
 !*.txt
+!*.c
+*to_delete.c
+!*.h
 
 # User-specific files
 *.rsuser
